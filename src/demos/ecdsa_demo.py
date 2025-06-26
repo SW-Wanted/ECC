@@ -1,5 +1,5 @@
-from ecdh import EllipticCurve
-from ecdsa import *
+from ..ecc.ecdh import EllipticCurve
+from ..ecc.ecdsa import *
 
 # Define curva e G
 curve = EllipticCurve(a=2, b=3, p=97)

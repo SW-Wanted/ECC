@@ -1,4 +1,4 @@
-from ecdh import EllipticCurve
+from ..ecc.ecdh import EllipticCurve
 from random import randint
 # ---------------------------------------------------
 # Simulação do protocolo Elliptic Curve Diffie-Hellman (ECDH)

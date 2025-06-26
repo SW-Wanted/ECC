@@ -1,5 +1,5 @@
-from ecdh import EllipticCurve
-from ecdsa import calculate_order, generate_keypair, sign, verify
+from ecc.ecdh import EllipticCurve
+from ecc.ecdsa import calculate_order, generate_keypair, sign, verify
 
 # 1. Definição dos parâmetros da curva
 p = 97
